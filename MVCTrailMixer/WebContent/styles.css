@@ -1,0 +1,411 @@
+.fixed-top {
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index:1030;
+}
+
+.profile-pic {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+p {
+  text-align: center;
+}
+
+table, tr, th, td{
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.loginButtons{
+text-align:center;
+}
+
+.loginButtons img {
+  width: 100%;
+  height: auto;
+}
+
+.loginButtons .loginForm {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color:black;
+  font-weight: bold;
+  font-family: comic;
+  background-color: white;
+}
+
+.loginButtons .btn:hover {
+  background-color: black;
+} 
+
+.signUpForm{
+text-align:center;
+}
+
+.signUp img {
+  width: 100%;
+  height: auto;
+}
+
+.signUp .signUpForm {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color:black;
+  font-weight: bold;
+  font-family: comic;
+  background-color: white;
+}
+
+.signUp .btn:hover {
+  background-color: black;
+} 
+
+.carousel-content {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+
+.welcome { 
+  color:white;
+  position:absolute;
+  z-index:12;
+  top:30%;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-size: 60px;
+  
+}
+
+.hikeButton {
+	text-align: center;
+}
+
+.listButtons {
+	text-align: center;
+}
+
+.trailsTitle {
+	text-align: center;
+}
+
+.trailsTable {
+	text-align: center;
+}
+
+.trailsTable2 {
+  float: left; 
+  margin-left: 10%; 
+  margin-right: 20%; 
+  margin-top: 4%; 
+  font-size: 20px; 
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;  
+  color: white;
+}
+
+.trailImage{
+	float: right;
+	margin: 80px;
+}
+
+.description {
+	margin-top: 420px; 
+	text-align: left; 
+	margin-left: 15%;
+	margin-right: 12%;
+}
+
+.accountCreated {
+	  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color:black;
+  font-weight: bold;
+  font-family: comic;
+}
+
+.yourHikes {
+	text-align: center;
+	margin-top: 2%;
+}
+
+.yourHikesTable {
+	text-align: left; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 2%; 
+} 
+
+#services {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#services .service-item {
+  margin-bottom: 20px;
+}
+
+#services .service-icon {
+  float: left;
+  background: #03C4EB;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #03C4EB;
+}
+
+#services .service-icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#services .service-item:hover .service-icon {
+  background: #fff;
+}
+
+#services .service-item:hover .service-icon i {
+  color: #03C4EB;
+}
+
+#services .service-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#services .service-title a {
+  color: #111;
+}
+
+#services .service-description {
+  margin-left: 80px;
+  line-height: 24px;
+}
+
+#about {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#about .about-img {
+  overflow: hidden;
+}
+
+#about .about-img img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about .about-img {
+    height: auto;
+  }
+  #about .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about .about-content {
+  background: #fff;
+}
+
+#about .about-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#about .about-text {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#about .about-text:last-child {
+  margin-bottom: 0;
+}
+
+#team {
+	text-align:center;
+  background: #fff;
+  padding: 80px 0 60px 0;
+}
+
+#team .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#team .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+}
+
+#team .member .pic img {
+  max-width: 100%;
+}
+
+#team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+#team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#team .member .social {
+  margin-top: 15px;
+}
+
+#team .member .social a {
+  color: #b3b3b3;
+}
+
+#team .member .social a:hover {
+  color: #03C4EB;
+}
+
+#team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+.section-title-team{
+	font-family: comic;
+	font-weight: bold;
+}
+
+#contact {
+  background: #f7f7f7;
+  padding: 80px 0;
+}
+
+#contact .info {
+  color: #333333;
+}
+
+#contact .info i {
+  font-size: 32px;
+  color: #03C4EB;
+  float: left;
+}
+
+#contact .info p {
+  padding: 0 0 10px 50px;
+  line-height: 24px;
+}
+
+#contact .form #sendmessage {
+  color: #03C4EB;
+  border: 1px solid #03C4EB;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+  display: block;
+}
+
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#contact .form input, #contact .form textarea {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#contact .form button[type="submit"] {
+  background: #03C4EB;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#contact .form button[type="submit"]:hover {
+  background: #25d8fc;
+}
+
+#footer {
+  background: #111;
+  padding: 30px 0;
+  color: #fff;
+}
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #ccc;
+}
+
+.matchesPage {
+	text-align: center;
+}
+
+.matchesTable1 {
+  margin-left:auto;
+  margin-right:auto;
+}
